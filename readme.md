@@ -225,8 +225,3 @@ docker compose down -v
 - Secrets are never stored in git (`.gitignore` covers them)
 - Use Docker secrets or environment variables for credentials
 - Avoid hardcoding passwords in `.env` or `config.ini`
-
----
-
-## 🧾 License
-MIT License © 2025
