@@ -1,0 +1,85 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.py.class
+
+#Virtual environments
+venv/
+env/
+.venv/
+.env/
+
+# Byte-compiled / optimized / DLL files
+*.so
+*.dll
+
+# PyInstaller
+*.spec
+build/
+dist/
+
+# Test and coverage
+.coverage
+htmlcov/
+*.log
+
+# IDEs and Editors
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Docker
+*.pid
+*.tar
+*.log
+Dockerfile~
+docker-compose.override.yml
+
+# Volumes & generated data
+pgdata/
+db_data/
+*.db
+
+# Secrets (important!)
+secrets/
+!secrets/.gitkeep
+*.secret
+*.key
+*.pem
+*.crt
+*.csr
+
+# Explicit secret files
+secrets/db_name.txt
+secrets/db_user.txt
+secrets/db_password.txt
+
+# Configuration
+config.ini
+*.env
+.env.*
+.envrc
+
+# Node / Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.cache/
+frontend/.parcel-cache/
+frontend/build/
+frontend/.next/
+frontend/yarn.lock
+frontend/package-lock.json
+
+# Logs
+*.log
+logs/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# OS-specific
+.DS_Store
+Thumbs.db
